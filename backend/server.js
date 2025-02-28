@@ -6,6 +6,12 @@ const app = express();
 require("dotenv").config();
 
 app.use(cors());
+  app.use(cors({
+    origin: "*",
+    methods: ['GET', 'POST', 'PUT', 'DELETE'], 
+    allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true, 
+  }));
 
 app.get('/agriculture-news', async (req, res) => {
     try {
@@ -23,7 +29,6 @@ app.get('/agriculture-news', async (req, res) => {
     }
 });
 
-// Define the port the server will run on
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
