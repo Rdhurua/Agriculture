@@ -24,45 +24,45 @@ const Moregallery = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-8">
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-8 ">
                 <div>
-                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300" 
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="" />
-                </div>
-                <div>
-                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300" 
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="" />
+                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
+                    src="https://img.freepik.com/free-photo/hardworking-young-farmer-operating-motor-cultivator-prepare-soil-new-seedlings-organic-food-farm_342744-1390.jpg?semt=ais_hybrid" alt="" />
                 </div>
                 <div>
-                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300" 
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="" />
+                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
+                    src="https://img.freepik.com/premium-photo/young-indian-farmer-showing-smartphone-money-cotton-field_75648-2074.jpg?semt=ais_hybrid" alt="" />
                 </div>
                 <div>
-                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300" 
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="" />
+                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
+                    src="https://img.freepik.com/free-photo/green-tea-bud-leaves-green-tea-plantations-morning_335224-955.jpg?t=st=1734636494~exp=1734640094~hmac=8afcbaf643f0bc1ea97476e625f3d8b6fc2ad12096cc2b9efe280e0b277d227d&w=1060" alt="" />
                 </div>
                 <div>
-                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300" 
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="" />
+                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
+                    src="https://img.freepik.com/free-photo/farmer-holds-rice-hand_1150-6063.jpg?semt=ais_hybrid" alt="" />
                 </div>
                 <div>
-                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300" 
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="" />
+                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
+                    src="https://img.freepik.com/free-photo/environmental-conservation-plant-sustainability_53876-104385.jpg?semt=ais_hybrid" alt="" />
                 </div>
                 <div>
-                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300" 
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-6.jpg" alt="" />
+                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
+                    src="https://img.freepik.com/premium-photo/indian-farmer-working-green-pigeon-peas-field-with-bullock_54391-6543.jpg?semt=ais_hybrid" alt="" />
                 </div>
                 <div>
-                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300" 
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt="" />
+                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
+                    src="https://media.istockphoto.com/id/2148858499/photo/indian-woman-collecting-a-wheat-india.jpg?s=612x612&w=0&k=20&c=u8S9OLNOLKLsPCvl5cLNGQDvdAFKb_BzmmqMKr8VY5M=" alt="" />
                 </div>
                 <div>
-                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300" 
-                    src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-8.jpg" alt="" />
+                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
+                    src="https://img.freepik.com/premium-photo/young-indian-farmer-with-agronomist-cotton-field_75648-1177.jpg?semt=ais_hybrid" alt="" />
                 </div>
-
+                <div>
+                    <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
+                    src="https://media.istockphoto.com/id/2167280120/photo/tamil-women-plucking-tea-leaves-on-plantation-ceylon.jpg?s=612x612&w=0&k=20&c=rHAOh22fVnDeEFEDf5_B7mvTCcHNJdd7KEmR4S9jcZk=" alt="" />
                 </div>
+                
+            </div>
                 <div className="text-end mt-4 text-green-600 hover:text-green-500">
                     <button >
                         <Link to="/?section=gallery">{visibility ? <span className='flex items-center '><MdKeyboardDoubleArrowLeft className='text-2xl' /> Back </span> : ' More...'}</Link>
