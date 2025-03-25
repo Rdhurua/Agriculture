@@ -14,9 +14,7 @@ const Gallery = () => {
             <div className='text-center md:w-3/4 mx-auto flex flex-col items-center' data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="170" data-aos-easing="ease-in-out">
                 <h2 className='text-4xl text-gray-500 font-semibold mb-4'>
                     Gallery</h2>
-                <p className='md:w-3/4 text-sm text-gray-500 mb-8 text-center'>Your support has the power to change lives. 
-                Whether it's offering food, shelter, medical assistance, or education, every contribution counts. Your generosity 
-                makes a meaningful difference in the lives of those in need.</p>
+                <p className='md:w-3/4 text-sm text-gray-500 mb-8 text-center'>A glimpse into the future of farming! Our gallery showcases the blend of modern technology and traditional methods, driving sustainable agriculture and rural progress.</p>
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-8 ">
