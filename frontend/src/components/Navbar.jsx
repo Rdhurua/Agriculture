@@ -14,7 +14,7 @@ const Navbar = () => {
         { link: "Service", path: "service" },
         { link: "About", path: "about" },
         { link: "Blog", path: "newsblog" },
-        { link: "Member", path: "member" },
+        // { link: "Member", path: "member" },
         { link: "FaQ", path: "faq" },
     ];
 

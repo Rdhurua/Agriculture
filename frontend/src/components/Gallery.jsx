@@ -42,7 +42,7 @@ const Gallery = () => {
                     <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
                     src="https://img.freepik.com/premium-photo/indian-farmer-working-green-pigeon-peas-field-with-bullock_54391-6543.jpg?semt=ais_hybrid" alt="" />
                 </div>
-                <div>
+                {/* <div>
                     <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
                     src="https://media.istockphoto.com/id/2148858499/photo/indian-woman-collecting-a-wheat-india.jpg?s=612x612&w=0&k=20&c=u8S9OLNOLKLsPCvl5cLNGQDvdAFKb_BzmmqMKr8VY5M=" alt="" />
                 </div>
@@ -53,7 +53,7 @@ const Gallery = () => {
                 <div>
                     <img className="h-auto max-w-full rounded-lg hover:scale-[97%] transition-all duration-300 " 
                     src="https://media.istockphoto.com/id/2167280120/photo/tamil-women-plucking-tea-leaves-on-plantation-ceylon.jpg?s=612x612&w=0&k=20&c=rHAOh22fVnDeEFEDf5_B7mvTCcHNJdd7KEmR4S9jcZk=" alt="" />
-                </div>
+                </div> */}
                 
             </div>
             <div className="text-end mt-4 text-green-600 hover:text-green-500">

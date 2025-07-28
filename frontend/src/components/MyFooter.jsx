@@ -48,8 +48,8 @@ const MyFooter = () => {
         </div>
       </div>
       
-      <div className="mt-8 border-t border-gray-700 pt-4 text-center text-gray-200">
-        <p>&copy; 2024 Agriculture Ltd. All rights reserved.</p>
+      <div className="mt-8 border-t border-gray-400 pt-4 text-center text-gray-200 ">
+        <p>&copy; {new Date().getFullYear()} Agriculture Ltd. All rights reserved.</p>
       </div>
     </footer>
   )
